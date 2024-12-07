@@ -7,6 +7,7 @@ pygame.init()
 width = 1000
 height = 900
 screen = pygame.display.set_mode([width, height])
+pygame.display.set_caption('Two-player pygame chess!')
 font = pygame.font.Font('freesansbold.ttf', 20)
 big_font = pygame.font.Font('freesansbold.ttf', 50)
 timer = pygame.time.Clock()
